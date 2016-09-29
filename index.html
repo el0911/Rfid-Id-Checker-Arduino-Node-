@@ -1,0 +1,122 @@
+
+
+<!DOCTYPE html>
+<html >
+  <head >
+    <!-- build:js scripts/vendor.js -->
+
+    <meta charset="utf-8">
+    <title></title>
+        <link href="bootstrap.min.css" rel="stylesheet">
+        <link href="ionic.min.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <script src="angular.js">  </script>
+        <script src="app.js">  </script>
+        <script src="socket.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.1/angular.js"></script> -->
+        <script src="route.js"></script>
+
+      </head>
+    <body ng-app="starter" ng-controller="main">
+      <nav class="navbar navbar-default" style="margin:0;width:80%;float:right;border-radius:0;background-color: #6200EA;
+      color:white;border:0;color:white">
+  <div class="container-fluid">
+    <div class="navbar-header" style"color:white">
+      <a class="navbar-brand"   href="#">
+        <img alt="Cu Card Reader" src="...">
+      </a>
+    </div>
+  </div>
+</nav>
+
+  <div class="left">
+  <!-- note we imported ionic.css so its gonna give u some p with navigation so get ready for that -->
+<div class="lefttop">
+  <img class="img-circle" src="i.jpg">
+  <p>
+    name
+  </p>
+</div>
+<ul class="list-group">
+  <li class="list-group-item">Profile</li>
+  <li class="list-group-item">Settings</li>
+  <li class="list-group-item">Notifications</li>
+</ul>
+  </div>
+  <div class="right">
+<!-- ////so bloody tired now its like 2:37 am havent slept cuz of this i just wish i go internet i would commit to github and someone would help me and finish it this night
+goint to sleep soon -->
+        <div class="card top_card">
+          <div class="item ">
+           <img class="img-circle" src="i.jpg">
+           <div class="right2" style="width:70%;margin-top:43px">
+             <p class="left2" style="margin-right:12px;margin-right:12px">   {{details.name}} </p>
+             <p  class="left2" style="margin-right:12px;margin-right:12px">   {{details.Email}} </p>
+             <p  class="left2" style="margin-right:12px;margin-right:12px">  {{details.Number}}   </p>
+             <p class="right2" style="margin-right:12px;margin-right:12px">  {{details.Colledge}}   </p>
+             <p class="right2" style="margin-right:12px;margin-right:12px">  {{details.Department}}   </p>
+           </div>
+         </div>
+        </div>
+        <!-- heavy inline css -->
+        <div class="card secondcard">
+          <div class="right2" style="width:50%;padding-left:20px;padding-right:20px">
+            <div class="" >
+              <p class="toptag">
+                Courser Thought
+              </p>
+              <table class="table table-striped">
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>EIE 311</td>
+                    <td>2:AM</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>EIE 511</td>
+                    <td>7:PM</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>EIE312</td>
+                    <td>3:PM</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- heavy inline css -->
+          <div class="left2"  style="width:50%;padding-left:20px;padding-right:20px">
+            <div class=""   >
+              <p class="toptag">
+                Todays Courses
+              </p>
+
+              <!-- bootsrap list >>>>>>if ur reading this code dont judge me please -->
+              <table class="table table-striped">
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>EIE 311</td>
+                    <td>2:AM</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>EIE 511</td>
+                    <td>7:PM</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>EIE312</td>
+                    <td>3:PM</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+</div>
+  </body>
+</html>

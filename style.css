@@ -1,0 +1,93 @@
+body{
+  background-color:#efefef;
+  height: 100%;
+  width: 100%;
+}
+
+.left{
+  float: left;
+  margin: 0;
+  height: 100%;
+  /*width: 227px;*/
+  width: 20%;
+  background-color: #6200EA;
+  color:white;
+}
+
+
+.right{
+  float: right;
+  height: 100%;
+  width: 80%;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  /*background-color: #ffffff;*/
+}
+
+html{
+  height: 100%;
+    width: 100%;
+}
+
+.top_card{
+  /*height: 300px;*/
+  width: 90%;
+  margin-top: 35px;
+  background-color: white;
+  padding: 25px;
+
+          }
+
+          .right img{
+            height: 110px;
+            width: 110px;
+          }
+
+          .right2{
+            float: right;
+          }
+
+          .left2{
+            float: left;
+          }
+
+          .secondcard{
+            width: 90%;
+            padding-top: 20px;
+          }
+          .toptag{
+            background: #efefef;
+            width: 100%;
+            vertical-align: baseline;
+            height: 30px;
+            padding-left: 10px;
+            padding-top: 7px;
+            margin-bottom: 0;
+          }
+
+          .lefttop{
+            color: white;
+            text-align: center;
+            height: 30%;
+            background-color:#5E35B1;
+            color:white;
+          }
+
+          .lefttop img{
+            height: 90px;
+            width: 90px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+          }
+
+          .list-group-item{
+            border: 0;
+            background-color: #6200EA;
+            color:white;
+            padding-left: 15px;
+          }
+
+          .list-group-item{
+              padding-left: 15px;
+          }
