@@ -23,7 +23,7 @@ app.controller('main', function($scope, socket) {
   $scope.details={};
   socket.on('init', function(data) {
   alert(data);
-  $scope.details=data.object;
+  $scope.details=data.Object.Object;
   console.log(data);
   });
 
